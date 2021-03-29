@@ -1,7 +1,7 @@
 # Estudando Flex-box
 
 <p align="center">Estudo para fixar as propriedades e possíveis aplicações do flexbox e evitar perder tempo durante a execução do projeto, tentando lembrar qual propriedade do flex box usar.</p>
-<p align="center">Este projeto foi desenvolvido seguindo um tutorial da RocketSeat</p> 🚀
+<p align="center">Este projeto foi desenvolvido seguindo um tutorial da RocketSeat 🚀 </p>
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
