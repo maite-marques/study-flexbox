@@ -4,18 +4,55 @@ html, body, #app {
 }
 #app {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
 }
-/*
+/* PROPRIEDADES PARA SEREM USADAS NO CONTAINER.
   display flex: alinha os itens horizontalmente;
   flex-direction: row, alinha os elementos pela linha por padrão
   flex-direction: column, alinha os elementos pela coluna
   flex-direction: row-reverse, alinha os elementos em linha começando pelo final da linha
   flex-direction: column-reverse, alinha os elementos em linha começando pelo final da coluna
 */
+
+/*
+  align-items: alinha os elementos verticalmente (se o flex-direction está em row);
+  align-items: flex-start; alinhando os itens no começo da página
+  align-items: flex-end; alinhando os itens verticalmente  no fim da página
+  align-items: center; alinhando os itens verticalmente  ao centro da página
+
+  align-items: alinha os elementos horizontalmente (se o flex-direction está em column);
+
+  O ALIGN-ITEMS alinha os elementos na direção oposta ao FLEX-DIRECTION.
+  O JUSTIFY-CONTENT alinha os elementos na mesma direção do FLEX-DIRECTION.
+
+  justify-content: alinhará os itens horizontalmente.
+  justify-content: flex-start; alinhando os itens no começo da página
+  justify-content: flex-end; alinhando os itens horizontalmente no fim da página
+  justify-content: center; alinhando os itens horizontalmente ao centro da página
+  justify-content: space-between; espaça igualmente entre os elementos;
+  justify-content: space-around; espaça igulamente entre os elementos e antes e depois;
+
+  flex-wrap: wrap; mantem o tamanho padrão e quebra a linha se necessário. Sem o wrap ele usa o shrink por
+                   padrão e diminui o elemento.
+  flex-wrap: (wrap, wrap-reverse);
+
+  align-content: center; propriedade igual ao justify-content mas usada quando os elementos tem quebra de
+                  linha.
+  align-content: (flex-start, flex-end, center, space-between, space-arownd);
+*/
 .box {
-  width: 60px;
+  width: 200px;
   height: 60px;
   background: #f00;
   margin: 5px;
 }
+
+/* PROPRIEDADES PARA SEREM USADAS NO BOX
+  flex-grow: 1, o elemento aceita ser aumentado para ocupar o tamanho total do elemento pai;
+  flex-shrink: 1, o elemento pode ser expremido para caber na tela.
+  flex-shrink: 0, o elemento fica fixo e não pode ser expremido para caber na tela.
+
+  flex: 1 0; quando usar somente flex o primeiro valor representa o grow e o segundo o shrink,
+  é usado quando quer que o elemento se estique para caber e não se encolha quando a tela diminuir.
+*/
