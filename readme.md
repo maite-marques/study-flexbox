@@ -33,29 +33,29 @@
   <p><b>flex-direction:</b> column, alinha os elementos pela coluna;</p>
   <p><b>flex-direction:</b> row-reverse, alinha os elementos em linha começando pelo final da linha;</p>
   <p><b>flex-direction:</b> column-reverse, alinha os elementos em linha começando pelo final da coluna;</p>
-  </br></br>
+  </br>
   <p><b>align-items:</b> alinha os elementos verticalmente (se o flex-direction está em row);</p>
   <p><b>align-items:</b> flex-start; alinhando os itens no começo da página;</p>
   <p><b>align-items:</b> flex-end; alinhando os itens verticalmente  no fim da página;</p>
   <p><b>align-items:</b> center; alinhando os itens verticalmente  ao centro da página;</p>
-
   <p><b>align-items:</b> alinha os elementos horizontalmente (se o flex-direction está em column);;</p>
 
   <p>O <b>ALIGN-ITEMS</b> alinha os elementos na direção oposta ao FLEX-DIRECTION.</p>
-  <p>O JUSTIFY-CONTENT</b> alinha os elementos na mesma direção do FLEX-DIRECTION.</p>
-  </br></br>
+  <p>O <b>JUSTIFY-CONTENT</b> alinha os elementos na mesma direção do FLEX-DIRECTION.</p>
+  </br>
   <p><b>justify-content:</b> alinhará os itens horizontalmente.
   <p><b>justify-content:</b> flex-start; alinhando os itens no começo da página</p>
   <p><b>justify-content:</b> flex-end; alinhando os itens horizontalmente no fim da página</p>
   <p><b>justify-content:</b> center; alinhando os itens horizontalmente ao centro da página</p>
   <p><b>justify-content:</b> space-between; espaça igualmente entre os elementos;</p>
   <p><b>justify-content:</b> space-around; espaça igulamente entre os elementos e antes e depois;</p>
-  </br></br>
+  </br>
   <p><b>flex-wrap:</b> wrap; mantem o tamanho padrão e quebra a linha se necessário. Sem o wrap ele usa o shrink por padrão e diminui o elemento.</p>
   <p><b>flex-wrap:</b> (wrap, wrap-reverse);</p>
-  </br></br>
+  </br>
   <p><b>align-content:</b> center; propriedade igual ao justify-content mas usada quando os elementos tem quebra de linha.</p>
   <p><b>align-content:</b> (flex-start, flex-end, center, space-between, space-arownd);</p>
+  </br>
 
 #### PROPRIEDADES USADAS NO BOX
   <p><b>flex-grow:</b> 1, o elemento aceita ser aumentado para ocupar o tamanho total do elemento pai;</p>
@@ -64,7 +64,7 @@
 
   <p><b>flex:</b> 1 0; quando usar somente flex o primeiro valor representa o grow e o segundo o shrink,
   é usado quando quer que o elemento se estique para caber e não se encolha quando a tela diminuir.</p>
-<p>ORDER</p>
+<p><b>ORDER</b></p>
   <p>Propriedade que pode ser setada em cada elemento, geralmente é usada quando a depender da largura da tela os elementos precisem mudar de lugar, ou inverter a ordem.</p>
 
 ### 🛠 Tecnologias
