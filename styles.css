@@ -1,7 +1,18 @@
-#app {
-
+html, body, #app {
+  height: 100%;
+  margin: 0;
 }
-
+#app {
+  display: flex;
+  flex-direction: row;
+}
+/*
+  display flex: alinha os itens horizontalmente;
+  flex-direction: row, alinha os elementos pela linha por padrão
+  flex-direction: column, alinha os elementos pela coluna
+  flex-direction: row-reverse, alinha os elementos em linha começando pelo final da linha
+  flex-direction: column-reverse, alinha os elementos em linha começando pelo final da coluna
+*/
 .box {
   width: 60px;
   height: 60px;
