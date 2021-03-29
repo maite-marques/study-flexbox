@@ -4,8 +4,7 @@ html, body, #app {
 }
 #app {
   display: flex;
-  flex-wrap: wrap;
-  align-content: center;
+
 }
 /* PROPRIEDADES PARA SEREM USADAS NO CONTAINER.
   display flex: alinha os itens horizontalmente;
@@ -42,7 +41,7 @@ html, body, #app {
   align-content: (flex-start, flex-end, center, space-between, space-arownd);
 */
 .box {
-  width: 200px;
+  width: 150px;
   height: 60px;
   background: #f00;
   margin: 5px;
@@ -55,4 +54,23 @@ html, body, #app {
 
   flex: 1 0; quando usar somente flex o primeiro valor representa o grow e o segundo o shrink,
   é usado quando quer que o elemento se estique para caber e não se encolha quando a tela diminuir.
+*/
+
+.red {
+  order: 3;
+}
+
+.green {
+  background: #0f0;
+  order: 2
+}
+
+.blue {
+  background: #00f;
+  order: 0;
+}
+
+/*
+  ORDER
+  Propriedade que pode ser setada em cada elemento, geralmente é usada quando a depender da largura da tela os elementos precisem mudar de lugar, ou inverter a ordem.
 */
