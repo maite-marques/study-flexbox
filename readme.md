@@ -8,7 +8,7 @@
  <a href="#telas-da-aplicacao">Telas da Aplicação</a> •
  <a href="#conceitos">Revisão de Conceitos</a> •
  <a href="#tecnologias">Tecnologias</a> •
- <a href="#contribuicao">Contribuição</a> •
+ <a href="#referencias">Referências</a> •
  <a href="#licenc-a">Licença</a> •
  <a href="#autor">Autor</a>
 </p>
@@ -76,7 +76,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [CSS](https://nodejs.org/en/)
 - [JavaScript](https://pt-br.reactjs.org/)
 
-## References
+## Referências
 <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks<a></p>
 <p><a href="https://cssreference.io/flexbox/">CSSReference.io<a></p>
 <p><a href="https://blog.rocketseat.com.br/como-fazer-um-bom-readme/">Rockeat Seat - como fazer um bom readme</a></p>
+
+## Licença
+
+## Autora
