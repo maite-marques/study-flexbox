@@ -77,7 +77,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [HTML](https://expo.io/)
 - [CSS](https://nodejs.org/en/)
 
-## Referências
+### Referências
 <p><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks<a></p>
 <p><a href="https://cssreference.io/flexbox/">CSSReference.io<a></p>
 <p><a href="https://blog.rocketseat.com.br/como-fazer-um-bom-readme/">Rockeat Seat - como fazer um bom readme</a></p>
