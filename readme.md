@@ -23,7 +23,7 @@
 ### Telas da Aplicação
 
 <h1 align="center">
-  <img alt="" title="#" src="./assets/home.png" />
+  <img alt="Tela inicial do Twitter"  src="/images/screenshot.png" />
 </h1>
 
 ### Conceitos
