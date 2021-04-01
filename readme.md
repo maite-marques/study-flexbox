@@ -10,6 +10,7 @@
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
  <a href="#telas-da-aplicacao">Telas da Aplicação</a> •
+ <a href="#visualizar-projeto-IDEo">Visualizar o projeto na IDE</a> •
  <a href="#conceitos">Revisão de Conceitos</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#referencias">Referências</a>
@@ -25,6 +26,12 @@
 <h1 align="center">
   <img alt="Tela inicial do Twitter"  src="/images/screencapture.png" />
 </h1>
+
+### Visualizar o projeto na IDE:
+
+Para quem quiser visualizar o projeto na IDE esse recurso do GitHub é bem bacana:
+
+https://github1s.com/maite-marques/study-flexbox
 
 ### Conceitos
 
